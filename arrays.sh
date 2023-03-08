@@ -6,5 +6,8 @@ STRINGS=(hello world)
 NumberOfNames=${#NAMES[@]}
 second_name=${NAMES[1]}
 
+echo ${NUMBERS[@]}
+echo ${STRINGS[@]}
+echo "Names: ${NAMES[@]}"
 echo "Number of Names: $NumberOfNames"
 echo "The second name: $second_name"
